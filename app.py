@@ -4,7 +4,7 @@ from aws_cdk import core
 
 from hello.hello_stack import MyStack
 
-print("hello")
+print("hello2")
 
 app = core.App()
 MyStack(app, "hello-cdk-1", env={'region': 'us-east-2'})
